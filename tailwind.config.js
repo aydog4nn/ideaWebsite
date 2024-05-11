@@ -6,7 +6,8 @@ export default {
   theme: {
     extend: {
         fontFamily :{
-            headersTitle:["Barlow", "sans-serif"]
+            headersTitle:["Barlow", "sans-serif"],
+            nameFont:["Montserrat","sans-serif"]
         },
         colors: {
             "hoverTextColor":"#EAC89A",
