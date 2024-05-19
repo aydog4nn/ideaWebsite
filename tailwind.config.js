@@ -12,7 +12,8 @@ export default {
         colors: {
             "hoverTextColor":"#EAC89A",
             "firstSectionColor":"#252525",
-            "secondSectionColor":"#EAC89A"
+            "secondSectionColor":"#EAC89A",
+            "cardColor" : "#121212"
         }
     },
   },

@@ -1,8 +1,12 @@
 import React from 'react'
-
+import FirstSection from '../components/homeComponents/FirstSection'
+import SecondSection from '../components/homeComponents/SecondSection'
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+        <FirstSection />
+        <SecondSection />
+    </div>
   )
 }
 

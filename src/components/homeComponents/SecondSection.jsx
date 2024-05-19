@@ -1,13 +1,13 @@
-import linkedIcon from "../assets/icons8-linkedin.svg";
+import linkedIcon from "../../assets/icons8-linkedin.svg"
 
 
 function SecondSection() {
     return (
         <div className="bg-secondSectionColor h-72">
             {/* Titles */}
-            <div className="flex flex-col justify-center items-center mt-16 gap-4">
+            <div className="flex flex-col justify-center items-center gap-4">
                 <div>
-                    <h1 className="text-3xl font-nameFont font-bold ">PH.D.</h1>
+                    <h1 className="text-3xl font-nameFont font-bold mt-16 ">PH.D.</h1>
                 </div>
                 <div>
                     <h1 className="text-4xl font-nameFont uppercase tracking-widest font-light">Random Hoca</h1>

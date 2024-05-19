@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    h1 {
+        @apply text-white mb-4
+    }
+
+    p {
+        @apply text-start mt-1 font-semibold  uppercase text-white opacity-70
+    }
+}
+
+@layer components {
+    .info-box {
+        @apply border-2 border-none p-5 rounded-lg  text-start
+    }
+}

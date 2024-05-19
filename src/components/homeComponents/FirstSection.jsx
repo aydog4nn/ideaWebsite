@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../images/d0d6df0f1c704444bd4fe9bdc0012873.jpeg'
+import img from "../../images/d0d6df0f1c704444bd4fe9bdc0012873.jpeg"
 function FirstSection() {
   return (
     <section className='h-96 bg-firstSectionColor flex items-center justify-center object-cover'>

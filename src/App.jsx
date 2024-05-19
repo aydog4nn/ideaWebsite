@@ -3,17 +3,16 @@ import Home from "./pages/Home"
 import About from "./pages/About"
 import Academic from "./pages/Academic"
 import Header from "./components/Header"
-import FirstSection from "./components/FirstSection"
-import SecondSection from "./components/SecondSection"
+import FirstSection from "./components/homeComponents/FirstSection"
+import SecondSection from "./components/homeComponents/SecondSection"
 import "./index.css"
 
 function App() {
   
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col bg-black">
         <Header/>
-        <FirstSection />
-        <SecondSection />
+        
 
         <Routes>
             <Route path="/home" element={<Home />} />
